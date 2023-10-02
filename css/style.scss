@@ -115,6 +115,11 @@ main{
             background-color: $color-1;
             color: $color-3;
         }
+        #soins{
+            img{
+                border-radius: 15px;
+            }
+        }
     }
 
     .test{

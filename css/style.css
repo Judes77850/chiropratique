@@ -112,6 +112,9 @@ main .chiro-info .content-3 {
   background-color: #18534F;
   color: rgb(236, 248, 246);
 }
+main .chiro-info #soins img {
+  border-radius: 15px;
+}
 main .test {
   background-color: rgb(236, 248, 246);
 }
