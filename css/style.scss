@@ -351,9 +351,9 @@ main{
         }
         .for-bg-chiro{
             height: 50rem;;
-            background: url(../medias/img/back-3.webp) fixed;
-            background-size: 50%;
-            border-radius: 15px;
+            background: url(../medias/img/back-3.webp);
+            background-size: cover;
+            border-radius: 0px;
         }
         .content-2{
             background-color: $color-4;
