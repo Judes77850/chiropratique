@@ -64,7 +64,6 @@ main .accueil-info {
   background-size: cover;
 }
 main .accueil-info .presentation {
-  width: 100%;
   height: 88vh;
   background: rgba(168, 168, 168, 0.3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -263,5 +262,229 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
   100% {
     transform-origin: top center;
     transform: rotateX(0deg);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    height: 90px;
+  }
+  header h1 {
+    font-size: 30px;
+  }
+  header img {
+    max-height: 90px;
+  }
+  main {
+    overflow: hidden;
+  }
+  main .content {
+    margin: auto;
+  }
+  main .accueil-info {
+    background-image: url(../medias/img/back.webp);
+    height: 88vh;
+    background-size: cover;
+  }
+  main .accueil-info .presentation {
+    height: 88vh;
+    background: rgba(168, 168, 168, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+  main .accueil-info .presentation h2 {
+    font-size: 50px;
+  }
+  main .accueil-info .presentation img {
+    width: 100%;
+    border-radius: 100px;
+  }
+  main .accueil-info .presentation li {
+    list-style-type: none;
+  }
+  main .accueil-info .drop-down {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+  main .accueil-info .drop-down a {
+    transition-duration: 300ms;
+  }
+  main .accueil-info .drop-down a:hover {
+    transform: scale(1.1);
+    transition-duration: 300ms;
+  }
+  main .chiro-info .content {
+    max-width: 1200px;
+  }
+  main .chiro-info .content img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  main .chiro-info .for-bg-chiro {
+    height: 50rem;
+    background: url(../medias/img/back-3.webp) fixed;
+    background-size: 50%;
+    border-radius: 15px;
+  }
+  main .chiro-info .content-2 {
+    background-color: rgb(254, 234, 161);
+  }
+  main .chiro-info .content-3 {
+    background-color: #18534F;
+    color: rgb(236, 248, 246);
+  }
+  main .test {
+    background-color: rgb(236, 248, 246);
+  }
+  main .faq .second-bg {
+    background-color: rgb(34, 109, 104);
+    color: white;
+  }
+  main .faq .second-bg p {
+    color: white;
+  }
+  main .faq .fourth-bg {
+    background-color: rgb(254, 234, 161);
+  }
+  main .faq .fourth-bg p {
+    color: black;
+  }
+  main .faq .steps {
+    box-shadow: 3px 3px 15px rgb(203, 203, 203);
+  }
+  main .faq .transition, main .faq ul li i:before, main .faq ul li i:after, main .faq p {
+    transition: all 0.25s ease-in-out;
+  }
+  main .faq .flipIn, main .faq ul li, main .faq h1 {
+    animation: flipdown 0.5s ease both;
+  }
+  main .faq .no-select, main .faq h2 {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  main .faq h1, main .faq h2 {
+    color: rgb(34, 109, 104);
+  }
+  main .faq h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  main .faq h2 {
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    background-color: transparent;
+    margin: 0;
+    cursor: pointer;
+  }
+  main .faq p {
+    color: rgba(48, 69, 92, 0.8);
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    max-height: 800px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+    z-index: 2;
+  }
+  main .faq ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 0;
+  }
+  main .faq ul li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 4px;
+    padding-top: 18px;
+  }
+  main .faq ul li:nth-of-type(1) {
+    animation-delay: 0.5s;
+  }
+  main .faq ul li:nth-of-type(2) {
+    animation-delay: 0.75s;
+  }
+  main .faq ul li:nth-of-type(3) {
+    animation-delay: 1s;
+  }
+  main .faq ul li:last-of-type {
+    padding-bottom: 0;
+  }
+  main .faq ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 0;
+  }
+  main .faq ul li i:before, main .faq ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(34, 109, 104);
+    width: 3px;
+    height: 9px;
+  }
+  main .faq ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+  }
+  main .faq ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+  main .faq ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+  }
+  main .faq ul li input[type=checkbox]:checked ~ p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+  }
+  main .faq ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg);
+  }
+  main .faq ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+  }
+  @keyframes flipdown {
+    0% {
+      opacity: 0;
+      transform-origin: top center;
+      transform: rotateX(-90deg);
+    }
+    5% {
+      opacity: 1;
+    }
+    80% {
+      transform: rotateX(8deg);
+    }
+    83% {
+      transform: rotateX(6deg);
+    }
+    92% {
+      transform: rotateX(-3deg);
+    }
+    100% {
+      transform-origin: top center;
+      transform: rotateX(0deg);
+    }
   }
 }/*# sourceMappingURL=style.css.map */
