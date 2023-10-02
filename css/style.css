@@ -72,11 +72,12 @@ main .accueil-info {
   background-size: cover;
 }
 main .accueil-info .presentation {
-  height: 88vh;
-  background: rgba(168, 168, 168, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(0px);
+  backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
 }
 main .accueil-info .presentation h2 {
   font-size: 60px;
@@ -87,6 +88,7 @@ main .accueil-info .presentation img {
 }
 main .accueil-info .presentation li {
   list-style-type: none;
+  border-top: 1px solid black;
 }
 main .accueil-info .drop-down {
   width: 100px;
@@ -294,18 +296,19 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
   }
   main .accueil-info {
     background-image: url(../medias/img/back.webp);
-    height: 88vh;
+    height: auto;
     background-size: cover;
   }
   main .accueil-info .presentation {
-    height: 88vh;
+    margin: 30px 10px 30px 10px;
+    height: auto;
     background: rgba(168, 168, 168, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(5px);
   }
   main .accueil-info .presentation h2 {
-    font-size: 50px;
+    font-size: 35px;
   }
   main .accueil-info .presentation img {
     width: 100%;
@@ -313,6 +316,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
   }
   main .accueil-info .presentation li {
     list-style-type: none;
+    font-size: 18px;
   }
   main .accueil-info .drop-down {
     width: 100px;
