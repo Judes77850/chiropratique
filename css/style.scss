@@ -25,6 +25,13 @@ html{
     color: $color-4;
 }
 
+.first-bg{
+    background-color: $color-1;
+    color: white;
+    p{
+        color: white;
+    }
+}
 .second-bg{
     background-color: $color-2;
     color: white;

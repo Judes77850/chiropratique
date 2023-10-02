@@ -23,6 +23,14 @@ html {
   color: rgb(254, 234, 161);
 }
 
+.first-bg {
+  background-color: #18534F;
+  color: white;
+}
+.first-bg p {
+  color: white;
+}
+
 .second-bg {
   background-color: rgb(34, 109, 104);
   color: white;
