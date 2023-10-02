@@ -291,13 +291,13 @@ main{
 }
 @media screen and (max-width: 800px ) {
     header{
-    height: 90px;
-    h1{
-        font-size: 30px;
-    }
-    img{
-        max-height: 90px;
-    }
+        height: 90px;
+            h1{
+                font-size: 30px;
+            }
+            img{
+                width: auto;
+            }
 }
     main{
     overflow: hidden;

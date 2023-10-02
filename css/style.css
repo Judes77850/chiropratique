@@ -273,7 +273,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     font-size: 30px;
   }
   header img {
-    max-height: 90px;
+    width: auto;
   }
   main {
     overflow: hidden;
