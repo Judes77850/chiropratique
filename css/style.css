@@ -84,7 +84,7 @@ main .accueil-info .presentation h2 {
 }
 main .accueil-info .presentation img {
   width: 100%;
-  border-radius: 100px;
+  border-radius: 180px;
 }
 main .accueil-info .presentation li {
   list-style-type: none;
