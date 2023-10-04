@@ -126,8 +126,26 @@ main .chiro-info .content-3 {
 main .chiro-info #soins img {
   border-radius: 15px;
 }
-main .test {
-  background-color: rgb(236, 248, 246);
+main .cab-info .content {
+  max-width: 1200px;
+}
+main .cab-info .content img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+}
+main .cab-info .content li {
+  list-style-type: none;
+}
+main .cab-info .content-2 {
+  background-color: rgb(254, 234, 161);
+}
+main .cab-info .content-3 {
+  background-color: #18534F;
+  color: rgb(236, 248, 246);
+}
+main .cab-info #soins img {
+  border-radius: 15px;
 }
 main .faq .second-bg {
   background-color: rgb(34, 109, 104);
