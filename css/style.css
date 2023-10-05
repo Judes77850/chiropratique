@@ -147,6 +147,48 @@ main .cab-info .content-3 {
 main .cab-info #soins img {
   border-radius: 15px;
 }
+main .paiement-info .content {
+  max-width: 1200px;
+}
+main .paiement-info .content img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+}
+main .paiement-info .content li {
+  list-style-type: none;
+}
+main .paiement-info .content-2 {
+  background-color: rgb(254, 234, 161);
+}
+main .paiement-info .content-3 {
+  background-color: #18534F;
+  color: rgb(236, 248, 246);
+}
+main .paiement-info #soins img {
+  border-radius: 15px;
+}
+main .qui-info .content {
+  max-width: 1200px;
+}
+main .qui-info .content img {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 20px;
+}
+main .qui-info .content li {
+  list-style-type: none;
+}
+main .qui-info .content-2 {
+  background-color: rgb(254, 234, 161);
+}
+main .qui-info .content-3 {
+  background-color: #18534F;
+  color: rgb(236, 248, 246);
+}
+main .qui-info #soins img {
+  border-radius: 15px;
+}
 main .faq .second-bg {
   background-color: rgb(34, 109, 104);
   color: white;

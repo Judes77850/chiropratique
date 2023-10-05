@@ -156,6 +156,56 @@ main{
             }
         }
     }
+    .paiement-info{
+        .content{
+            max-width: 1200px;
+            img{
+                width: 100%;
+                max-width: 800px;
+                border-radius: 20px;
+            }
+            li{
+                list-style-type: none;
+            }
+        }
+        .content-2{
+            background-color: $color-4;
+        }
+        .content-3{
+            background-color: $color-1;
+            color: $color-3;
+        }
+        #soins{
+            img{
+                border-radius: 15px;
+            }
+        }
+    }
+    .qui-info{
+        .content{
+            max-width: 1200px;
+            img{
+                width: 100%;
+                max-width: 1000px;
+                border-radius: 20px;
+            }
+            li{
+                list-style-type: none;
+            }
+        }
+        .content-2{
+            background-color: $color-4;
+        }
+        .content-3{
+            background-color: $color-1;
+            color: $color-3;
+        }
+        #soins{
+            img{
+                border-radius: 15px;
+            }
+        }
+    }
 
     .faq{
 
