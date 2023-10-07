@@ -440,6 +440,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     background-position-y: 40%;
     min-height: 200px;
     transition-duration: 300ms;
+    opacity: 1;
   }
   main .for-who .first:hover {
     transition-duration: 300ms;
@@ -452,6 +453,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     background-position-y: 30%;
     background-size: cover;
     transition-duration: 300ms;
+    opacity: 1;
   }
   main .for-who .second:hover {
     transition-duration: 300ms;
@@ -463,6 +465,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     background-size: cover;
     min-height: 200px;
     transition-duration: 300ms;
+    opacity: 1;
   }
   main .for-who .third:hover {
     transition-duration: 300ms;
@@ -475,6 +478,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     background-position-y: 10%;
     min-height: 200px;
     transition-duration: 300ms;
+    opacity: 1;
   }
   main .for-who .fourth:hover {
     transition-duration: 300ms;
@@ -487,6 +491,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     background-position-y: 30%;
     min-height: 200px;
     transition-duration: 300ms;
+    opacity: 1;
   }
   main .for-who .five:hover {
     transition-duration: 300ms;

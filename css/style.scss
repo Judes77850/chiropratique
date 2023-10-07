@@ -475,64 +475,65 @@ main{
             background-position-y: 40%;
             min-height: 200px;
             transition-duration: 300ms;
+            opacity: 1;
         }
         .first:hover{
             transition-duration: 300ms;
             text-decoration: none;
             cursor: pointer;
-
-            }
+        }
         .second{
             background-image: url(../medias/img/baby.webp);
             min-height: 200px;
             background-position-y: 30%;
             background-size: cover;
             transition-duration: 300ms;
+            opacity: 1;
         }
         .second:hover{
             transition-duration: 300ms;
             text-decoration: none;
             cursor: pointer;
-            }
+        }
         .third{
             background-image: url(../medias/img/seniors.webp);
             background-size: cover;
             min-height: 200px;
             transition-duration: 300ms;
+            opacity: 1;
         }
         .third:hover{
             transition-duration: 300ms;
             text-decoration: none;
             cursor: pointer;
-
-
-            }
+        }
         .fourth{
             background-image: url(../medias/img/surf.webp);
             background-size: cover;
             background-position-y: 10%;
             min-height: 200px;
             transition-duration: 300ms;
+            opacity: 1;
+
         }
         .fourth:hover{
             transition-duration: 300ms;
             text-decoration: none;
             cursor: pointer;
-
-            }
+        }
         .five{
             background-image: url(../medias/img/actif.webp);
             background-size: cover;
             background-position-y: 30%;
             min-height: 200px;
             transition-duration: 300ms;
+            opacity: 1;
         }
         .five:hover{
             transition-duration: 300ms;
             text-decoration: none;
             cursor: pointer;
-
-            }
+        }
     }
 
     .accueil-info{
