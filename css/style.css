@@ -446,6 +446,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     transition-duration: 300ms;
     text-decoration: none;
     cursor: pointer;
+    opacity: 1;
   }
   main .for-who .second {
     background-image: url(../medias/img/baby.webp);
@@ -459,6 +460,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     transition-duration: 300ms;
     text-decoration: none;
     cursor: pointer;
+    opacity: 1;
   }
   main .for-who .third {
     background-image: url(../medias/img/seniors.webp);
@@ -471,6 +473,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     transition-duration: 300ms;
     text-decoration: none;
     cursor: pointer;
+    opacity: 1;
   }
   main .for-who .fourth {
     background-image: url(../medias/img/surf.webp);
@@ -484,6 +487,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     transition-duration: 300ms;
     text-decoration: none;
     cursor: pointer;
+    opacity: 1;
   }
   main .for-who .five {
     background-image: url(../medias/img/actif.webp);
@@ -497,6 +501,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     transition-duration: 300ms;
     text-decoration: none;
     cursor: pointer;
+    opacity: 1;
   }
   main .accueil-info {
     background-image: url(../medias/img/back.webp);
