@@ -71,33 +71,37 @@ main{
         font-size: 20px;
         display: flex;
         .label{
-            color: black;
+            background-color: white;
+            color: $color-2;
+            border: solid 2px $color-2;
         }
-        :hover{
-                text-decoration: none;
-            font-size: 24px;
-
-            }
         .first{
             background-image: url(../medias/img/pregnant.webp);
             background-size: cover;
             background-position-x: 50%;
             height: 100%;
             transition-duration: 300ms;
+            opacity: 0.7;
         }
         .first:hover{
-
             transition-duration: 300ms;
-
+            background-position-x: 60%;
+            text-decoration: none;
+            opacity: 1;
             }
         .second{
             background-image: url(../medias/img/baby.webp);
-            background-size: cover;
+            background-size: 200%;
+            background-position-x: 30%;
             height: 100%;
             transition-duration: 300ms;
+            opacity: 0.7;
         }
         .second:hover{
             transition-duration: 300ms;
+            background-position-x: 50%;
+            text-decoration: none;
+            opacity: 1;
             }
         .third{
             background-image: url(../medias/img/seniors.webp);
@@ -105,34 +109,41 @@ main{
             background-position-x: 60%;
             height: 100%;
             transition-duration: 300ms;
+            opacity: 0.7;
         }
         .third:hover{
             transition-duration: 300ms;
+            background-position-x: 70%;
+            text-decoration: none;
+            opacity: 1;
             }
         .fourth{
             background-image: url(../medias/img/surf.webp);
             background-size: cover;
             background-position-x: 50%;
-
             height: 100%;
             transition-duration: 300ms;
+            opacity: 0.7;
         }
         .fourth:hover{
-
             transition-duration: 300ms;
+            background-position-x: 60%;
+            text-decoration: none;
+            opacity: 1;
             }
         .five{
             background-image: url(../medias/img/actif.webp);
-            background-size: cover;
+            background-size: 200%;
             background-position-x: 50%;
-
-
             height: 100%;
             transition-duration: 300ms;
+            opacity: 0.7;
         }
         .five:hover{
-
             transition-duration: 300ms;
+            background-position-x: 60%;
+            text-decoration: none;
+            opacity: 1;
             }
     }
 

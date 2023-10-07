@@ -72,11 +72,9 @@ main .for-who {
   display: flex;
 }
 main .for-who .label {
-  color: black;
-}
-main .for-who :hover {
-  text-decoration: none;
-  font-size: 24px;
+  background-color: white;
+  color: rgb(34, 109, 104);
+  border: solid 2px rgb(34, 109, 104);
 }
 main .for-who .first {
   background-image: url(../medias/img/pregnant.webp);
@@ -84,18 +82,27 @@ main .for-who .first {
   background-position-x: 50%;
   height: 100%;
   transition-duration: 300ms;
+  opacity: 0.7;
 }
 main .for-who .first:hover {
   transition-duration: 300ms;
+  background-position-x: 60%;
+  text-decoration: none;
+  opacity: 1;
 }
 main .for-who .second {
   background-image: url(../medias/img/baby.webp);
-  background-size: cover;
+  background-size: 200%;
+  background-position-x: 30%;
   height: 100%;
   transition-duration: 300ms;
+  opacity: 0.7;
 }
 main .for-who .second:hover {
   transition-duration: 300ms;
+  background-position-x: 50%;
+  text-decoration: none;
+  opacity: 1;
 }
 main .for-who .third {
   background-image: url(../medias/img/seniors.webp);
@@ -103,9 +110,13 @@ main .for-who .third {
   background-position-x: 60%;
   height: 100%;
   transition-duration: 300ms;
+  opacity: 0.7;
 }
 main .for-who .third:hover {
   transition-duration: 300ms;
+  background-position-x: 70%;
+  text-decoration: none;
+  opacity: 1;
 }
 main .for-who .fourth {
   background-image: url(../medias/img/surf.webp);
@@ -113,19 +124,27 @@ main .for-who .fourth {
   background-position-x: 50%;
   height: 100%;
   transition-duration: 300ms;
+  opacity: 0.7;
 }
 main .for-who .fourth:hover {
   transition-duration: 300ms;
+  background-position-x: 60%;
+  text-decoration: none;
+  opacity: 1;
 }
 main .for-who .five {
   background-image: url(../medias/img/actif.webp);
-  background-size: cover;
+  background-size: 200%;
   background-position-x: 50%;
   height: 100%;
   transition-duration: 300ms;
+  opacity: 0.7;
 }
 main .for-who .five:hover {
   transition-duration: 300ms;
+  background-position-x: 60%;
+  text-decoration: none;
+  opacity: 1;
 }
 main .accueil-info {
   background-image: url(../medias/img/back.webp);
