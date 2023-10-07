@@ -66,6 +66,76 @@ main{
         margin: auto;
     }
 
+    .for-who{
+        height: 500px;
+        font-size: 20px;
+        display: flex;
+        .label{
+            color: black;
+        }
+        :hover{
+                text-decoration: none;
+            font-size: 24px;
+
+            }
+        .first{
+            background-image: url(../medias/img/pregnant.webp);
+            background-size: cover;
+            background-position-x: 50%;
+            height: 100%;
+            transition-duration: 300ms;
+        }
+        .first:hover{
+
+            transition-duration: 300ms;
+
+            }
+        .second{
+            background-image: url(../medias/img/baby.webp);
+            background-size: cover;
+            height: 100%;
+            transition-duration: 300ms;
+        }
+        .second:hover{
+            transition-duration: 300ms;
+            }
+        .third{
+            background-image: url(../medias/img/seniors.webp);
+            background-size: cover;
+            background-position-x: 60%;
+            height: 100%;
+            transition-duration: 300ms;
+        }
+        .third:hover{
+            transition-duration: 300ms;
+            }
+        .fourth{
+            background-image: url(../medias/img/surf.webp);
+            background-size: cover;
+            background-position-x: 50%;
+
+            height: 100%;
+            transition-duration: 300ms;
+        }
+        .fourth:hover{
+
+            transition-duration: 300ms;
+            }
+        .five{
+            background-image: url(../medias/img/actif.webp);
+            background-size: cover;
+            background-position-x: 50%;
+
+
+            height: 100%;
+            transition-duration: 300ms;
+        }
+        .five:hover{
+
+            transition-duration: 300ms;
+            }
+    }
+
     .accueil-info{
         background-image: url(../medias/img/back.webp);
         height: 88vh;
@@ -382,6 +452,76 @@ main{
 
     .content{
         margin: auto;
+    }
+
+    .for-who{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        .first{
+            background-image: url(../medias/img/pregnant.webp);
+            background-size: cover;
+            background-position-y: 40%;
+            min-height: 200px;
+            transition-duration: 300ms;
+        }
+        .first:hover{
+            transition-duration: 300ms;
+            text-decoration: none;
+            cursor: pointer;
+
+            }
+        .second{
+            background-image: url(../medias/img/baby.webp);
+            min-height: 200px;
+            background-position-y: 30%;
+            background-size: cover;
+            transition-duration: 300ms;
+        }
+        .second:hover{
+            transition-duration: 300ms;
+            text-decoration: none;
+            cursor: pointer;
+            }
+        .third{
+            background-image: url(../medias/img/seniors.webp);
+            background-size: cover;
+            min-height: 200px;
+            transition-duration: 300ms;
+        }
+        .third:hover{
+            transition-duration: 300ms;
+            text-decoration: none;
+            cursor: pointer;
+
+
+            }
+        .fourth{
+            background-image: url(../medias/img/surf.webp);
+            background-size: cover;
+            background-position-y: 10%;
+            min-height: 200px;
+            transition-duration: 300ms;
+        }
+        .fourth:hover{
+            transition-duration: 300ms;
+            text-decoration: none;
+            cursor: pointer;
+
+            }
+        .five{
+            background-image: url(../medias/img/actif.webp);
+            background-size: cover;
+            background-position-y: 30%;
+            min-height: 200px;
+            transition-duration: 300ms;
+        }
+        .five:hover{
+            transition-duration: 300ms;
+            text-decoration: none;
+            cursor: pointer;
+
+            }
     }
 
     .accueil-info{

@@ -66,6 +66,67 @@ main {
 main .content {
   margin: auto;
 }
+main .for-who {
+  height: 500px;
+  font-size: 20px;
+  display: flex;
+}
+main .for-who .label {
+  color: black;
+}
+main .for-who :hover {
+  text-decoration: none;
+  font-size: 24px;
+}
+main .for-who .first {
+  background-image: url(../medias/img/pregnant.webp);
+  background-size: cover;
+  background-position-x: 50%;
+  height: 100%;
+  transition-duration: 300ms;
+}
+main .for-who .first:hover {
+  transition-duration: 300ms;
+}
+main .for-who .second {
+  background-image: url(../medias/img/baby.webp);
+  background-size: cover;
+  height: 100%;
+  transition-duration: 300ms;
+}
+main .for-who .second:hover {
+  transition-duration: 300ms;
+}
+main .for-who .third {
+  background-image: url(../medias/img/seniors.webp);
+  background-size: cover;
+  background-position-x: 60%;
+  height: 100%;
+  transition-duration: 300ms;
+}
+main .for-who .third:hover {
+  transition-duration: 300ms;
+}
+main .for-who .fourth {
+  background-image: url(../medias/img/surf.webp);
+  background-size: cover;
+  background-position-x: 50%;
+  height: 100%;
+  transition-duration: 300ms;
+}
+main .for-who .fourth:hover {
+  transition-duration: 300ms;
+}
+main .for-who .five {
+  background-image: url(../medias/img/actif.webp);
+  background-size: cover;
+  background-position-x: 50%;
+  height: 100%;
+  transition-duration: 300ms;
+}
+main .for-who .five:hover {
+  transition-duration: 300ms;
+}
 main .accueil-info {
   background-image: url(../medias/img/back.webp);
   height: 88vh;
@@ -348,6 +409,70 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
   }
   main .content {
     margin: auto;
+  }
+  main .for-who {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
+  main .for-who .first {
+    background-image: url(../medias/img/pregnant.webp);
+    background-size: cover;
+    background-position-y: 40%;
+    min-height: 200px;
+    transition-duration: 300ms;
+  }
+  main .for-who .first:hover {
+    transition-duration: 300ms;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  main .for-who .second {
+    background-image: url(../medias/img/baby.webp);
+    min-height: 200px;
+    background-position-y: 30%;
+    background-size: cover;
+    transition-duration: 300ms;
+  }
+  main .for-who .second:hover {
+    transition-duration: 300ms;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  main .for-who .third {
+    background-image: url(../medias/img/seniors.webp);
+    background-size: cover;
+    min-height: 200px;
+    transition-duration: 300ms;
+  }
+  main .for-who .third:hover {
+    transition-duration: 300ms;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  main .for-who .fourth {
+    background-image: url(../medias/img/surf.webp);
+    background-size: cover;
+    background-position-y: 10%;
+    min-height: 200px;
+    transition-duration: 300ms;
+  }
+  main .for-who .fourth:hover {
+    transition-duration: 300ms;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  main .for-who .five {
+    background-image: url(../medias/img/actif.webp);
+    background-size: cover;
+    background-position-y: 30%;
+    min-height: 200px;
+    transition-duration: 300ms;
+  }
+  main .for-who .five:hover {
+    transition-duration: 300ms;
+    text-decoration: none;
+    cursor: pointer;
   }
   main .accueil-info {
     background-image: url(../medias/img/back.webp);
