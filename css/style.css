@@ -59,6 +59,9 @@ header {
 header img {
   max-height: 90px;
 }
+header #phone-link:hover {
+  color: #226d68;
+}
 
 main {
   overflow: hidden;
