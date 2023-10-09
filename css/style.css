@@ -12,7 +12,7 @@ html {
 }
 
 .second-color {
-  color: rgb(34, 109, 104);
+  color: #226d68;
 }
 
 .third-color {
@@ -32,7 +32,7 @@ html {
 }
 
 .second-bg {
-  background-color: rgb(34, 109, 104);
+  background-color: #226d68;
   color: white;
 }
 .second-bg p {
@@ -73,8 +73,8 @@ main .for-who {
 }
 main .for-who .label {
   background-color: white;
-  color: rgb(34, 109, 104);
-  border: solid 2px rgb(34, 109, 104);
+  color: #226d68;
+  border: solid 2px #226d68;
 }
 main .for-who .first {
   background-image: url(../medias/img/pregnant.webp);
@@ -263,8 +263,37 @@ main .qui-info .content-3 {
   background-color: #18534F;
   color: rgb(236, 248, 246);
 }
+main .rendez-vous-info .content {
+  max-width: 1200px;
+}
+main .rendez-vous-info .content img {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 20px;
+}
+main .rendez-vous-info .content #doctolib-button {
+  border: 5px solid;
+  border-radius: 40px;
+  border-color: rgb(71, 151, 221);
+  transition-duration: 200ms;
+  box-shadow: 2px 2px 10px #989898;
+}
+main .rendez-vous-info .content #doctolib-button:hover {
+  border: 5px solid;
+  border-radius: 30px;
+  border-color: rgb(71, 151, 221);
+  transition-duration: 200ms;
+  box-shadow: 2px 2px 15px #7a7a7a;
+}
+main .rendez-vous-info .content-2 {
+  background-color: rgb(254, 234, 161);
+}
+main .rendez-vous-info .content-3 {
+  background-color: #18534F;
+  color: rgb(236, 248, 246);
+}
 main .faq .second-bg {
-  background-color: rgb(34, 109, 104);
+  background-color: #226d68;
   color: white;
 }
 main .faq .second-bg p {
@@ -293,7 +322,7 @@ main .faq .no-select, main .faq h2 {
   user-select: none;
 }
 main .faq h1, main .faq h2 {
-  color: rgb(34, 109, 104);
+  color: #226d68;
 }
 main .faq h1 {
   text-transform: uppercase;
@@ -359,7 +388,7 @@ main .faq ul li i {
 main .faq ul li i:before, main .faq ul li i:after {
   content: "";
   position: absolute;
-  background-color: rgb(34, 109, 104);
+  background-color: #226d68;
   width: 3px;
   height: 9px;
 }
@@ -563,7 +592,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     background-color: rgb(236, 248, 246);
   }
   main .faq .second-bg {
-    background-color: rgb(34, 109, 104);
+    background-color: #226d68;
     color: white;
   }
   main .faq .second-bg p {
@@ -592,7 +621,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     user-select: none;
   }
   main .faq h1, main .faq h2 {
-    color: rgb(34, 109, 104);
+    color: #226d68;
   }
   main .faq h1 {
     text-transform: uppercase;
@@ -658,7 +687,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
   main .faq ul li i:before, main .faq ul li i:after {
     content: "";
     position: absolute;
-    background-color: rgb(34, 109, 104);
+    background-color: #226d68;
     width: 3px;
     height: 9px;
   }
