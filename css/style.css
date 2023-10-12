@@ -54,7 +54,12 @@ html {
 }
 
 header {
+  position: fixed;
+  margin-top: 0;
   height: 100px;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
 }
 header img {
   max-height: 90px;
@@ -64,6 +69,7 @@ header #phone-link:hover {
 }
 
 main {
+  padding-top: 100px;
   overflow: hidden;
 }
 main .content {
@@ -151,10 +157,11 @@ main .for-who .five:hover {
 }
 main .accueil-info {
   background-image: url(../medias/img/back.webp);
-  height: 88vh;
   background-size: cover;
 }
 main .accueil-info .presentation {
+  margin-top: 100px;
+  margin-bottom: 100px;
   background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3px);
@@ -349,7 +356,7 @@ main .faq p {
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 1px;
-  position: relative;
+  position: static;
   overflow: hidden;
   max-height: 800px;
   opacity: 1;
@@ -406,7 +413,7 @@ main .faq ul li input[type=checkbox] {
   cursor: pointer;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 2;
   opacity: 0;
 }
 main .faq ul li input[type=checkbox]:checked ~ p {
@@ -648,7 +655,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 1px;
-    position: relative;
+    position: static;
     overflow: hidden;
     max-height: 800px;
     opacity: 1;
@@ -705,7 +712,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
     cursor: pointer;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 2;
     opacity: 0;
   }
   main .faq ul li input[type=checkbox]:checked ~ p {
