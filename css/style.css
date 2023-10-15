@@ -80,9 +80,8 @@ main .for-who {
   display: flex;
 }
 main .for-who .label {
-  background-color: white;
-  color: #226d68;
-  border: solid 2px #226d68;
+  background-color: #226d68;
+  color: white;
 }
 main .for-who .first {
   background-image: url(../medias/img/pregnant.webp);
@@ -357,7 +356,6 @@ main .faq p {
   letter-spacing: 1px;
   position: static;
   overflow: hidden;
-  max-height: 800px;
   opacity: 1;
   transform: translate(0, 0);
   margin-top: 14px;
