@@ -494,16 +494,21 @@ main{
 }
 @media screen and (max-width: 800px ) {
     header{
+        position: relative;
         height: 90px;
             h1{
                 font-size: 30px;
             }
             img{
                 width: auto;
+                max-height: 80px;
+
             }
 }
     main{
     overflow: hidden;
+    padding-top: 0px;
+
 
     .content{
         margin: auto;

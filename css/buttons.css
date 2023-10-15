@@ -272,7 +272,7 @@
   }
 }
 /* 本体には関係ないスタイル */
-.container {
+.btn-container {
   width: auto;
   height: auto;
   display: flex;
