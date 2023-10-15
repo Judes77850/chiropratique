@@ -30,7 +30,7 @@
                 <li><a href="tel:0678849507">06.78.84.95.07</a></li>
                 
             </ul>
-            <div class="navbar d-xl-none col col-12">
+            <div class="navbar d-xl-none col col-12 p-0">
                 <div class="container nav-container ">
                     <input class="checkbox" type="checkbox" name="" id=""/>
                     <div class="hamburger-lines">
@@ -68,33 +68,35 @@
                         <img class="mt-5 mx-auto" src="../medias/img/maps.webp" alt="Vue google maps de l'emplacement du cabinet">
                     </a>
                 </div>
-                <div class="mt-5 col col-12 col-lg-6 row d-flex justify-content-between align-items-center">
-                    <div id="phone" class=" mb-4 fourth-bg p-3 rounded">
-                        <h3 class="mb-3">
-                            <?xml version="1.0" encoding="UTF-8"?>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
-                                viewBox="0 0 24 24" color="#000000">
-                                <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
-                                d="M18.118 14.702 14 15.5c-2.782-1.396-4.5-3-5.5-5.5l.77-4.13L7.815 2H4.064c-1.128 0-2.016.932-1.847 2.047.42 2.783 1.66 7.83 5.283 11.453 3.805 3.805 9.286 5.456 12.302 6.113 1.165.253 2.198-.655 2.198-1.848v-3.584l-3.882-1.479Z">
-                                </path>
-                            </svg>&nbspTelephone :
-                        </h3>
-                        <span class="d-flex justify-content-center align-items-center">
-                            <a href="tel:678849507"><strong>06.78.84.95.07</strong></a>
-                        </span>
-                    </div>
-                    <div id="address" class="col col-12 mb-2">
-                        <h3 class="mb-3">
-                            <?xml version="1.0" encoding="UTF-8"?>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
-                                <path 
-                                stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m9 19-5.21 1.737a.6.6 0 0 1-.79-.57V5.433a.6.6 0 0 1 .41-.569L9 3m0 16 6 2m-6-2V3m6 18 5.59-1.863a.6.6 0 0 0 .41-.57V3.832a.6.6 0 0 0-.79-.569L15 5m0 16V5m0 0L9 3">
-                                </path>
-                            </svg>&nbspAdresse :
-                        </h3>
-                        <span class="text-right">Espace Santé Libéral, appelé aussi "la maison jaune"</span><br/>
-                        <span class="text-right">112 avenue du Général de Gaulle</span><br/>
-                        <span class="text-right">Auray (56400)</span>
+                <div class="mt-5 col col-12 col-lg-6 row d-flex justify-content-between align-items-center mx-auto">
+                    <div class="col col-12 fourth-bg p-3 rounded">
+                        <div id="phone" class="col col-12 mb-3">
+                            <h3 class="mb-3">
+                                <?xml version="1.0" encoding="UTF-8"?>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="none" stroke-width="1.5"
+                                    viewBox="0 0 24 24" color="#000000">
+                                    <path stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    d="M18.118 14.702 14 15.5c-2.782-1.396-4.5-3-5.5-5.5l.77-4.13L7.815 2H4.064c-1.128 0-2.016.932-1.847 2.047.42 2.783 1.66 7.83 5.283 11.453 3.805 3.805 9.286 5.456 12.302 6.113 1.165.253 2.198-.655 2.198-1.848v-3.584l-3.882-1.479Z">
+                                    </path>
+                                </svg>&nbspTelephone :
+                            </h3>
+                            <span>
+                                <a href="tel:678849507"><strong>06.78.84.95.07</strong></a>
+                            </span>
+                        </div>
+                        <div id="address" class="col col-12">
+                            <h3 class="mb-3">
+                                <?xml version="1.0" encoding="UTF-8"?>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="none" stroke-width="1.5" viewBox="0 0 24 24" color="#000000">
+                                    <path 
+                                    stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="m9 19-5.21 1.737a.6.6 0 0 1-.79-.57V5.433a.6.6 0 0 1 .41-.569L9 3m0 16 6 2m-6-2V3m6 18 5.59-1.863a.6.6 0 0 0 .41-.57V3.832a.6.6 0 0 0-.79-.569L15 5m0 16V5m0 0L9 3">
+                                    </path>
+                                </svg>&nbspAdresse :
+                            </h3>
+                            <span>Espace Santé Libéral, appelé aussi "la maison jaune"</span><br/>
+                            <span>112 avenue du Général de Gaulle</span><br/>
+                            <span>Auray (56400)</span>
+                        </div>
                     </div>
                     <div class="col col-12 third-bg p-3 rounded mt-4">
                         <h3>
@@ -110,14 +112,14 @@
                             <li>Le bâtiment rassemble plusieurs professionnels dans un cadre libéral.</li>
                             <li>Il est accessible aux personnes à mobilité réduite.</li>
                             <li>De nombreuses places de parking sont disponibles en face du cabinet.</li>
-                            <li>Les différents moyens de règlement acceptés sont les chèques et espèces.</li>
+                            <li>Les moyens de paiement acceptés sont les chèques et espèces.</li>
                         </ul>
 
                     </div>
                 </div>
-                <div class="row col col-12 col-lg-8 mx-auto mt-3">
-                    <div class="btn-container my-3 my-lg-5">
-                        <a href="https://www.google.com/maps/dir//Le+Brazidec+Maude,+112+Av.+du+G%C3%A9n%C3%A9ral+de+Gaulle,+56400+Auray/@47.6769005,-2.9938699,29z/data=!3m1!5s0x4810144f47dbaff3:0x4b01ddaac148a691!4m9!4m8!1m0!1m5!1m1!1s0x4810155b37f622c1:0x6bce46c2aadbc155!2m2!1d-2.9945974!2d47.6766447!3e0?entry=ttu" class="button">
+                <div class="row col col-12 col-lg-6 mx-auto mt-3 d-flex justify-content-between align-items-center">
+                    <div class="btn-container my-3 my-lg-5 mx-auto">
+                        <a href="https://www.google.com/maps/dir//Le+Brazidec+Maude,+112+Av.+du+G%C3%A9n%C3%A9ral+de+Gaulle,+56400+Auray/@47.6769005,-2.9938699,29z/data=!3m1!5s0x4810144f47dbaff3:0x4b01ddaac148a691!4m9!4m8!1m0!1m5!1m1!1s0x4810155b37f622c1:0x6bce46c2aadbc155!2m2!1d-2.9945974!2d47.6766447!3e0?entry=ttu" target="_blank" class="button">
                             <div class="button__line"></div>
                             <div class="button__line"></div>
                             <span class="button__text">
@@ -133,7 +135,7 @@
                             <div class="button__drow2"></div>
                         </a>
                     </div>
-                    <div class="btn-container my-3 my-lg-5">
+                    <div class="btn-container my-3 my-lg-5 mx-auto">
                         <a href="rendez-vous.html" class="button">
                             <div class="button__line"></div>
                             <div class="button__line"></div>
