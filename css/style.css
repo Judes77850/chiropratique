@@ -134,15 +134,16 @@ main .for-who .third:hover {
 }
 main .for-who .fourth {
   background-image: url(../medias/img/surf.webp);
-  background-size: cover;
-  background-position-x: 50%;
+  background-size: 150%;
+  background-position-x: 0%;
+  background-position-y: 20%;
   height: 100%;
   transition-duration: 300ms;
   opacity: 0.7;
 }
 main .for-who .fourth:hover {
   transition-duration: 300ms;
-  background-position-x: 60%;
+  background-position-x: 30%;
   text-decoration: none;
   opacity: 1;
 }
@@ -214,6 +215,9 @@ main .chiro-info .for-bg-chiro {
 main .chiro-info .content-2 {
   background-color: rgb(254, 234, 161);
 }
+main .chiro-info .content-2 li a {
+  color: #226d68;
+}
 main .chiro-info .content-3 {
   background-color: #18534F;
   color: rgb(236, 248, 246);
@@ -232,8 +236,14 @@ main .cab-info .content img {
 main .cab-info .content li {
   list-style-type: none;
 }
+main .cab-info .content li a {
+  color: #226d68;
+}
 main .cab-info .content-2 {
   background-color: rgb(254, 234, 161);
+}
+main .cab-info .content-2 li a {
+  color: #226d68;
 }
 main .cab-info .content-3 {
   background-color: #18534F;
@@ -253,8 +263,14 @@ main .paiement-info .content img {
 main .paiement-info .content li {
   list-style-type: none;
 }
+main .paiement-info .content li a {
+  color: #226d68;
+}
 main .paiement-info .content-2 {
   background-color: rgb(254, 234, 161);
+}
+main .paiement-info .content-2 li a {
+  color: #226d68;
 }
 main .paiement-info .content-3 {
   background-color: #18534F;
@@ -271,8 +287,14 @@ main .qui-info .content img {
   max-width: 1000px;
   border-radius: 20px;
 }
+main .qui-info .content a {
+  color: #226d68;
+}
 main .qui-info .content-2 {
   background-color: rgb(254, 234, 161);
+}
+main .qui-info .content-2 li a {
+  color: #226d68;
 }
 main .qui-info .content-3 {
   background-color: #18534F;
@@ -303,9 +325,18 @@ main .rendez-vous-info .content #doctolib-button:hover {
 main .rendez-vous-info .content-2 {
   background-color: rgb(254, 234, 161);
 }
+main .rendez-vous-info .content-2 li {
+  list-style: none;
+}
+main .rendez-vous-info .content-2 li a {
+  color: #226d68;
+}
 main .rendez-vous-info .content-3 {
   background-color: #18534F;
   color: rgb(236, 248, 246);
+}
+main .rendez-vous-info .content-3 a {
+  color: #226d68;
 }
 main .faq .second-bg {
   background-color: #226d68;
@@ -524,7 +555,7 @@ main .faq ul li input[type=checkbox]:checked ~ i:after {
   main .for-who .fourth {
     background-image: url(../medias/img/surf.webp);
     background-size: cover;
-    background-position-y: 10%;
+    background-position-y: 45%;
     min-height: 200px;
     transition-duration: 300ms;
     opacity: 1;
